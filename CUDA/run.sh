@@ -5,8 +5,7 @@
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:1
 #SBATCH --qos=gpu_free
-#  SBATCH --account=phpc2021
-#  SBATCH --reservation=phpc2021
+
 
 module load gcc cuda
 
